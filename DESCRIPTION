@@ -1,0 +1,21 @@
+Package: matrixFunctions
+Title: Collection of Functions for Matrix Differentiation
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Thanakorn",
+           family = "Nitithumbundit",
+           role = c("aut", "cre"),
+           email = "t.nitithumbundit@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0003-0971-2111"))
+Description: A collection of functions for matrix differentiation. Numeric matrix 
+    derivatives are implemented using Richardson's extrapolation method, and
+    computational improvements to some matrix functions in matrixcalc package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests:
+    numDeriv,
+    matrixcalc,
+    testthat
